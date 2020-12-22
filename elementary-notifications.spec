@@ -23,6 +23,7 @@ BuildRequires:  vala
 BuildRequires:  pkgconfig(granite) >= 5.4.0
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libcanberra)
+BuildRequires:  pkgconfig(libcanberra-gtk3)
 BuildRequires:  pkgconfig(libhandy-1)
 
 %description
