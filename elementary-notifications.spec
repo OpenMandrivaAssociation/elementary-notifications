@@ -36,7 +36,6 @@ elementary Notifications is a GTK notification server for Pantheon.
 %meson
 %meson_build
 
-
 %install
 %meson_install
 
@@ -47,6 +46,7 @@ elementary Notifications is a GTK notification server for Pantheon.
 %config(noreplace) %{_sysconfdir}/xdg/autostart/%{appname}.desktop
 
 %{_bindir}/%{appname}
-
+%{_bindir}/io.elementary.notifications.demo
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/metainfo/%{appname}.appdata.xml
+%{_datadir}/applications/io.elementary.notifications.demo.desktop
