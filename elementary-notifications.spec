@@ -10,7 +10,7 @@ Summary:        GTK Notifications Server
 License:        GPLv3+
 
 URL:            https://github.com/elementary/notifications
-Source0:        https://github.com/elementary/notifications/archive/%{name}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/elementary/notifications/archive/%{name}/%{name}-%{cimmitdate}.tar.gz
 
 # Release is still missing, use git instead.
 
@@ -29,7 +29,7 @@ BuildRequires:  pkgconfig(libhandy-1)
 elementary Notifications is a GTK notification server for Pantheon.
 
 %prep
-%autosetup -n %{srcname}-%{version}
+%autosetup -n %{srcname}-%{commitdate}
 
 %build
 %meson
