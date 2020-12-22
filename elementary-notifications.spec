@@ -10,7 +10,7 @@ Summary:        GTK Notifications Server
 License:        GPLv3+
 
 URL:            https://github.com/elementary/notifications
-Source0:        https://github.com/elementary/notifications/archive/%{name}/%{name}-%{cimmitdate}.tar.gz
+Source0:        https://github.com/elementary/notifications/archive/%{name}/%{name}-%{commitdate}.tar.gz
 
 # Release is still missing, use git instead.
 
