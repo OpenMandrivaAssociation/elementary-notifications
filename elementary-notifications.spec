@@ -5,7 +5,7 @@
 
 Name:           elementary-notifications
 Version:        0
-Release:        0.git%{commitdate}.1
+Release:        0.git%{commitdate}.2
 Summary:        GTK Notifications Server
 License:        GPLv3+
 
